@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.label_image{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -24px;
+    right: 439px;
+}
+.image img {
+    height: 62%;
+    width: 27%;
+    border-radius: 50%;
+    border: 10px solid #ffff;
+}
+
+.name{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        left: 56%;
+        right: 6px;
+        font-size: 60px;
+        color: blue;
+    }
